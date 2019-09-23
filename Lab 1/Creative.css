@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(-90deg, #00A9B7, #004C6C);
+}
+
+@font-face{
+font-family: Prophet-Bold;
+src: url('https://www.tudublin.ie/media/website/site-assets/css/fonts/Prophet-Bold.woff'), url('https://www.tudublin.ie/media/website/site-assets/css/fonts/Prophet-Bold.woff') format('woff');}
+
+@font-face{
+font-family: visuelt-regular;
+src: url('https://www.tudublin.ie/media/website/site-assets/css/fonts/visuelt-regular.woff'), url('https://www.tudublin.ie/media/website/site-assets/css/fonts/visuelt-regular.woff') format('woff');}
+
+h1 {
+    font-family: 'Prophet-Bold';
+    color: white;
+}
+
+p {
+    font-family: 'visuelt-regular', sans-serif;
+    font: 40px;
+    color: white;
+}
+
+table {
+    table-layout: auto;
+    width: 400px; 
+}
+
+img{
+    width: auto;
+    height: 200px;
+    float: right;
+    padding: inherit;
+    padding-right: 10px;
+}
+
+ul{
+    color: white;
+    font-family: 'visuelt-regularo', sans-serif;
+}
+
+a{
+    color: #CFC600;
+}
+
+.tg{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td{
+    font-family: 'visuelt-regular', sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: white;
+    color: white;
+}
+
+.tg th{
+    font-family: 'Prophet-Bold';
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: white;
+    color: white;
+}
+
+.tg .tg-1{
+    text-align: left;
+    vertical-align: top
+}
