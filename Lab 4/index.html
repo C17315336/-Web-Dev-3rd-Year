@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validation Exercise</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    </head>
+    <body>
+        <h1>Personal Information</h1>
+        <form name="personal_info" id="personal_info">
+            <table align="center" border="0">
+                <tbody><tr>
+                    <td class="name">
+                        Name:
+                    </td>
+                    <td class="data">
+                        <input type="text" name="name_text" id="name_text" width="20" maxlength="40" size="20">
+                    </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                            E-mail address:
+                        </td>
+                        <td class="data">
+                            <input type="email" name="email_text" id="email_text" width="20" maxlength="40" size="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                            Date of Birth (DD/MM/YYYY):
+                        </td>
+                        <td class="data">
+                            <input type="text" name="datepicker" id="datepicker">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                            Gender:
+                        </td>
+                        <td class="data">
+                            <select name="select_gender" id="select_gender">
+                                <option value="None"></option>
+                                <option value="F">Female</option>
+                                <option value="M">Male</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                            Street address (line 1):
+                        </td>
+                        <td class="data">
+                            <input type="text" name="addr1_text" id="addr1_text" width="6" size="6" maxlength="5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                            Street address (line 2):
+                        </td>
+                        <td class="data">
+                            <input type="text" name="addr2_text" id="addr2_text" width="6" size="6" maxlength="5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                            City:
+                        </td>
+                        <td class="data">
+                            <input type="text" name="city_text" id="city_text" width="6" size="6" maxlength="5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                            ZIP code:
+                        </td>
+                        <td class="data">
+                            <input type="text" name="zip_text" id="zip_text" width="6" size="6" maxlength="5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="name">
+                                <input type="button" value="Submit" onclick="validateForm()"> <!-- if type="submit", on validation error clears the entire form -->
+                        </td>
+                        <td class="data">
+                            <input type="reset" value="Clear">
+                        </td>
+                    </tr>
+                </tbody></table>
+        </form>
+        <div class="success">SUCCESS</div>
+    <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>

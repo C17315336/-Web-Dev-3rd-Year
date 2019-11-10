@@ -1,0 +1,39 @@
+body{
+    font-size: 10pt;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #003300;
+}
+
+h1{
+    font-size: 12pt;
+    text-align: center;
+}
+
+p{
+    margin: 0px 40px 20px 40px
+}
+
+td{
+    padding: 5px;
+}
+
+td.name{
+    text-align: right;
+}
+
+td.data{
+    text-align: left;
+}
+
+.success{
+    background:#98bf21;
+    height:0px;
+    width:200px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
