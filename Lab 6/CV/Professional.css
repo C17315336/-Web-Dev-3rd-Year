@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'GoogleSans-Regular', sans-serif;
+    color: #202124;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #202124;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #202124;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #202124;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font: 40px;
+    color: #5f6368;
+}
+
+table {
+    table-layout: auto;
+    width: 400px; 
+}
+
+.pics1{
+    width: auto;
+    height: 200px;
+    float: right;
+    padding: inherit;
+    padding-right: 10px;
+}
+
+ul{
+    color: #5f6368;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol{
+    color: #5f6368;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #1a73e8;
+}
+
+.tg{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #5f6368;
+    color: #5f6368;
+}
+
+.tg th{
+    font-family: 'GoogleSans-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #202124;
+}
+
+.tg .tg-1{
+    text-align: left;
+    vertical-align: top
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.myButtonP {
+    font-family: 'GoogleSans-Regular', sans-serif;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+-webkit-user-select: none;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+h6:hover span{
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+

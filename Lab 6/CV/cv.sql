@@ -1,0 +1,1 @@
+INSERT INTO `tbleducation` (`eduID`, `eduSchool`, `eduDegree`, `eduGrade`, `eduStartYear`, `eduEndYear`, `eduDateAdded`, `eduDateUpdated`) VALUES (NULL, 'Technological University Dublin', 'Computer Science (Infrastructure)', 'Bachelor of Science (Hons)', '2017', '2021', CURRENT_TIMESTAMP, '0000-00-00 00:00:00.000000')
